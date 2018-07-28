@@ -1,9 +1,9 @@
 package sockjs
 
 import (
-	"code.google.com/p/go.net/websocket"
 	"encoding/json"
 	"fmt"
+	"golang.org/x/net/websocket"
 	"net/http"
 	"strings"
 	"sync"
